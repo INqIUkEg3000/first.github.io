@@ -1,0 +1,135 @@
+/*设置导航条样式*/
+    /*清除默认样式*/
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	        img{
+				width: 200px;
+				height: 60px;
+				margin-bottom: -15px;
+			}
+			input{
+				padding:10px 20px;
+				margin-bottom: 25px;
+			}
+			.nav{
+				list-style: none;
+				background-color:skyblue;
+		
+				margin: 0px auto;
+				/*解决高度塌陷问题*/
+				overflow: hidden;
+			}
+			/*设置li浮动*/
+			.nav li{
+				float: left;
+				width: 14.2%;
+			}
+			.nav a{
+				/*将a转化为块元素*/
+				display: block;
+				width: 100%;
+				/*设置文字居中*/
+				text-align: center;
+				/*给a设置上下内边距*/
+				padding: 5px;
+				/*去除下划线0*/
+				text-decoration: none;
+				/*设置字体颜色*/
+				color: white;
+				/*加粗*/
+				font-weight: bold;
+			}
+			/*伪类,鼠标移入的效果*/
+			.nav a:hover{
+				background-color: royalblue;
+			}
+			.box2{
+				background-color: lightblue;
+			}
+			/*设置播放视频格式*/
+			.box2 iframe{
+				margin-top: 15px;
+				margin-bottom: 10px;
+				position: relative;
+				left: 500px
+			}
+			/**/
+			.box3{
+				margin-top: 20px;
+				background-color: #F5F5DC;
+				padding: 0px 30px;
+			}
+			.box3 .sp1{
+				text-decoration: none;
+				font-size: 40px;
+				font-weight: bold;
+			}
+			.box3 .sp2{
+				font-size: 25px;
+			}
+			.box3 p{
+				text-indent: 2em;
+			}
+			.luffy{
+				width: 400px;
+				height: 445px;
+				float:right;
+			}
+			.tab1 {
+				width: 600px;
+				height: 300px;
+				/*居中*/
+				/*margin: 0 auto;*/
+				/*边框*/
+				border-collapse: collapse;
+			}
+			/*设置边框*/
+			td {
+				border: 0px solid black;
+				text-align:left;
+			}
+			/*设置隔行变色*/
+			tr:nth-child(even){
+				background-color:bisque;
+			}
+			/*鼠标处于某一行时变色*/
+			tr:hover{
+				background-color:burlywood;
+			}
+			/*设置字体*/
+			.t1{
+				font-family: "华文行楷";
+			}
+			.box4{
+				margin-top: 20px;
+				/*设置内边距*/
+				padding: 0px 30px;
+				background-color: #F5F5DC;
+			}
+			.title{
+				font-size: 25px;
+				font-weight: 500;
+			}
+			.d1{
+				font-size: 20px;
+			}
+			.d1 a:hover{
+				background-color: mediumaquamarine;
+			}
+			dd{
+				text-indent: 2em;
+			}
+			dd a:hover{
+				background-color: #87CEEB;
+			}
+			.box4 p{
+				text-indent: 2em;
+			}
+			.scend,.four,.three,.fire{
+				float:right;
+			}
+			.fire{
+				display: block;
+			}
